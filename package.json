@@ -1,7 +1,7 @@
 {
   "name": "gangetabellenprogram",
   "productName": "gangetabellenprogram",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Læringsverktøy for Gangetabellen",
   "main": "main.js",
   "scripts": {
@@ -30,6 +30,15 @@
   },
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-updater": "^6.1.8"
+  },
+  "build": {
+    "appId": "https://github.com/Z-F-x/GangetabellenProgram",
+    "publish": {
+      "provider": "github",
+      "repo": "your-github-repo",
+      "owner": "your-github-username"
+    }
   }
 }
