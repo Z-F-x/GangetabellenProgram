@@ -1,7 +1,7 @@
 {
-  "name": "gangetabellenprogram",
-  "productName": "gangetabellenprogram",
-  "version": "1.0.2",
+  "name": "Gangetabellen",
+  "productName": "Gangetabellen",
+  "version": "1.0.3",
   "description": "Læringsverktøy for Gangetabellen",
   "main": "main.js",
   "scripts": {
@@ -25,20 +25,19 @@
   },
   "keywords": [],
   "author": {
-    "name": "benjamin-roedstien",
-    "email": "benjamin.roedstien@gmail.com"
+    "name": "zFx",
+    "email": "zentinel@protonmail.com"
   },
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0",
-    "electron-updater": "^6.1.8"
+    "electron-squirrel-startup": "^1.0.0"
   },
   "build": {
     "appId": "https://github.com/Z-F-x/GangetabellenProgram",
     "publish": {
       "provider": "github",
-      "repo": "your-github-repo",
-      "owner": "your-github-username"
+      "repo": "GangetabellenProgram",
+      "owner": "Z-F-x"
     }
   }
 }

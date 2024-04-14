@@ -2,7 +2,6 @@ const { app, BrowserWindow, dialog } = require('electron');
 const { autoUpdater } = require('electron-updater');
 
 function createWindow() {
-    // Create the browser window.
     const win = new BrowserWindow({
 
         titleBarOverlay: false,
@@ -15,10 +14,8 @@ function createWindow() {
             contextIsolation: true,
         }
     });
-
-    // and load the index.html of the app.
     win.loadFile('document.html');
-    win.setMenu(null);  // This line removes the menu bar
+    win.setMenu(null); 
 
 }
 
