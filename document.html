@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplikasjonsquiz!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Multiplikasjonsquiz!!</h1>
+    <div id="quiz-container">
+        <p id="question"></p>
+        <input type="number" id="answer" placeholder="Ditt svar">
+        <button onclick="submitAnswer()">Lever inn</button>
+        <button onclick="generateQuestion()">Nytt gangestykke</button> <!-- New button -->
+        <p id="result"></p>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
