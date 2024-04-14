@@ -3,8 +3,11 @@ const { app, BrowserWindow } = require('electron');
 function createWindow() {
     // Create the browser window.
     const win = new BrowserWindow({
+
+        titleBarOverlay: false,
+
         width: 800,
-        height: 600,
+        height: 600,    
         webPreferences: {
             webSecurity: true,
             nodeIntegration: false,
@@ -14,6 +17,8 @@ function createWindow() {
 
     // and load the index.html of the app.
     win.loadFile('document.html');
+    win.setMenu(null);  // This line removes the menu bar
+
 }
 
 app.whenReady().then(createWindow);

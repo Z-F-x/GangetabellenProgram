@@ -2,7 +2,7 @@
   "name": "gangetabellenprogram",
   "productName": "gangetabellenprogram",
   "version": "1.0.1",
-  "description": "My Electron application description",
+  "description": "Læringsverktøy for Gangetabellen",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
