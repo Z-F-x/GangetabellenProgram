@@ -12,16 +12,16 @@
     "lint": "echo \"No linting configured\""
   },
   "devDependencies": {
-    "@electron-forge/cli": "^7.4.0",
-    "@electron-forge/maker-deb": "^7.4.0",
-    "@electron-forge/maker-rpm": "^7.4.0",
-    "@electron-forge/maker-squirrel": "^7.4.0",
-    "@electron-forge/maker-zip": "^7.4.0",
-    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
-    "@electron-forge/plugin-fuses": "^7.4.0",
-    "@electron-forge/publisher-github": "^7.4.0",
+    "@electron-forge/cli": "^7.11.1",
+    "@electron-forge/maker-deb": "^7.11.1",
+    "@electron-forge/maker-rpm": "^7.11.1",
+    "@electron-forge/maker-squirrel": "^7.11.1",
+    "@electron-forge/maker-zip": "^7.11.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.11.1",
+    "@electron-forge/plugin-fuses": "^7.11.1",
+    "@electron-forge/publisher-github": "^7.11.1",
     "@electron/fuses": "^1.8.0",
-    "electron": "29.3.0"
+    "electron": "41.0.2"
   },
   "keywords": [],
   "author": {
@@ -31,6 +31,12 @@
   "license": "MIT",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
+  },
+  "overrides": {
+    "tar": "^7.5.11",
+    "yauzl": "^3.2.1",
+    "@tootallnate/once": "^3.0.1",
+    "tmp": "^0.2.5"
   },
   "build": {
     "appId": "https://github.com/Z-F-x/GangetabellenProgram",
