@@ -36,7 +36,8 @@
     "tar": "^7.5.11",
     "yauzl": "^3.2.1",
     "@tootallnate/once": "^3.0.1",
-    "tmp": "^0.2.5"
+    "tmp": "^0.2.5",
+    "lodash": "^4.18.0"
   },
   "build": {
     "appId": "https://github.com/Z-F-x/GangetabellenProgram",
